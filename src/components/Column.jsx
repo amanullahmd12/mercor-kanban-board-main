@@ -55,7 +55,7 @@ function Column({ colIndex }) {
         {col.name} ({col.tasks.length})
 
       <button
-      className=" w-8 h-8 rounded-md  text-blue-900  hidden md:block ml-[180px] "
+      className=" rounded-md  text-blue-900  hidden md:block ml-[40%] "
       onClick={() => {
         setIsTaskModalOpen((prevState) => !prevState);
       }}
@@ -66,7 +66,7 @@ function Column({ colIndex }) {
       onClick={() => {
         setIsTaskModalOpen((prevState) => !prevState);
       }}
-      className="  w-8 h-8 rounded-md py-1 px-3 md:hidden "
+      className="   rounded-md py-1 px-3 md:hidden "
     >
       <img src={add}/>
     </button>

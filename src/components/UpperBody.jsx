@@ -46,8 +46,8 @@ const UpperBody = () => {
       }
 
   return (
-    <div className="md:ml-[300px]">
-   <div className="flex justify-between">
+    <div className="md:ml-[261px] z-20 ">
+   <div className="flex justify-between z-20">
    <div className="flex">
     <h1 id="heading" className="md:text-[46px] text-[30px]">Mobile App</h1>
     <img src={edit} className="ml-[19px]" onClick={makeEditable}/>

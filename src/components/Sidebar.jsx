@@ -32,7 +32,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
     <div
     className={
       isSideBarOpen
-        ? `min-w-[261px] bg-white fixed mt-[-240px] items-center left-0 z-50 text-black-600`
+        ? `max-w-[261px] bg-white mt-[-250px] fixed items-center left-0 z-50 text-black-600`
         : ` bg-[#635FC7] text-black-600 top-auto bottom-10 justify-center items-center hover:opacity-80 cursor-pointer  p-0 transition duration-300 transform fixed  w-[56px] h-[48px] rounded-r-full  `
     }
   >
@@ -40,14 +40,14 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
           {/* reWrite modal  */}
 
           {isSideBarOpen && (
-            <div className=" border-2 border-[#f5f5f5] bg-white  border-1  w-full   py-4 rounded-xl">
+            <div className=" border-2 border-[#f5f5f5] z-50 bg-white  border-1  w-full   py-4 rounded-xl">
 
               <div className="  dropdown-borad flex flex-col justify-between ">
                 <div>
    
                 <div className=" flex items-center space-x-2  md:space-x-4">
                 <img src={Logo} alt=" Logo " className="" />
-                <h4 className=" md:text-4xl  hidden md:inline-block font-bold  font-inter">
+                <h4 className=" md:text-[18px]  hidden md:inline-block font-bold  font-inter">
                   Project M
                 </h4>
                 
@@ -69,7 +69,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
               </div>
                 <hr/>
                     <div
-                      className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-500 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+                      className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-500 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                        `}
  
 
@@ -79,7 +79,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
 
                     </div>
                     <div
-                    className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+                    className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                      `}
 
                   >
@@ -89,7 +89,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
 
                   </div>
                   <div
-                  className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+                  className={` flex items-baseline space-x-2 px-2 py-2 mr-8 rounded-r-md duration-200 ease-in-out  cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                    `}
                 >
                   <img src={task} className=" " />{" "}
@@ -97,7 +97,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
                   
                 </div>
                 <div
-                className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+                className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                  `}
               
                 
@@ -107,7 +107,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
                 
               </div>
               <div
-              className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+              className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                `}
             
             >
@@ -129,7 +129,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
                   </div>
                 </div>
                 <div
-          className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer bg-[#635fc71a] hover:bg-[#c4c2ff1a] hover:text-[#635fc7] text-[#787486]
+          className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer bg-[#635fc71a] hover:bg-[#c4c2ff1a] hover:text-[#635fc7] text-[#787486]
            `}
         
         >
@@ -138,7 +138,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
           
         </div>
         <div
-              className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+              className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                `}
             
             >
@@ -147,7 +147,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
               
             </div>
             <div
-              className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+              className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                `}
             
             >
@@ -156,7 +156,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
               
             </div>
             <div
-              className={` flex items-baseline space-x-2 px-5 mr-8 rounded-r-md duration-200 ease-in-out py-4 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
+              className={` flex items-baseline space-x-2 px-2 mr-8 rounded-r-md duration-200 ease-in-out py-2 cursor-pointer hover:bg-[#635fc71a] hover:text-[#635fc7] text-[#787486]
                `}
             
             >
@@ -167,7 +167,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
                 </div>
                 <div className="mt-[]">
                 <img src={thoughts} className="ml-12  mt-[0px] relative z-20"  width="180px" height="180px"/>
-                <input type="search" placeholder="Write Your Message" className="bg-[#fff] p-2 w-3/6 mt-[-50px] z-50 absolute  ml-[60px] rounded-md text-neutral-400 "/>
+                <input type="search" placeholder="Message" className="bg-[#fff] text-xs px-3 py-2 w-3/6 mt-[-20%] z-50 absolute  ml-[60px] rounded-md text-neutral-400 "/>
                 </div>
               </div>
             </div>
@@ -177,7 +177,7 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
           {isSideBarOpen ? (
             <div
               onClick={() => toggleSidebar()}
-              className=" flex  items-center mt-2  absolute bottom-16  text-lg font-bold  rounded-r-full hover:text-[#635FC7] cursor-pointer mr-6 mb-8 px-8 py-4 hover:bg-[#635fc71a]   space-x-2 justify-center  my-4 text-gray-500 "
+              className=" flex  items-center mt-2  absolute bottom-16  text-lg font-bold  rounded-r-full hover:text-[#635FC7] cursor-pointer mr-6 mb-8 px-2 py-2 hover:bg-[#635fc71a]   space-x-2 justify-center  my-4 text-gray-500 "
             >
             
               {isSideBarOpen && <img src={arrow}/>}

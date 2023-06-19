@@ -90,7 +90,7 @@
               "status": "Doing",
               "subtasks": [
                 {
-                  "title": "Upgrade plan",
+                  "title": "Plant plan",
                   "isCompleted": true
                 },
                 {
@@ -116,19 +116,19 @@
               "status": "Done",
               "subtasks": [
                 {
-                  "title": "Complete 5 wireframe prototype tests",
+                  "title": "Prototype tests",
                   "isCompleted": true
                 }
               ]
             },
             {
               "label":"Completed",
-              "title": "Create wireframe prototype",
-              "description": "Create a greyscale clickable wireframe prototype to test our assumptions so far.",
+              "title": "Design System",
+              "description": "It just needs to adapt the UI from what you did before ",
               "status": "Done",
               "subtasks": [
                 {
-                  "title": "Interface Making",
+                  "title": "Interface Making ",
                   "isCompleted": true
                 }
               ]
