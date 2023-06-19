@@ -1,0 +1,143 @@
+{
+  "boards": [
+    {
+      "name": "Mobile App",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "To Do",
+          "tasks": [
+            {
+              "label": "Low",
+              "title": "Brainstorming",
+           
+              "description": "Brainstorming brings team members' diverse experience into play.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Sign up page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Sign in page",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Welcome page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "label": "High",
+              "title": "Research",
+              "description": "User research helps you to create an optimal product for users.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Search page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "label": "High",
+              "title": "Wireframes",
+              "description": "Low fidelity wireframes include the most basic content and visuals.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Account page",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Billing page",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": [
+            {
+              "label": "Low",
+              "title": "Onboarding Illustrations",
+              "description": "",
+              "imageURL":"https://i.ibb.co/F7hF2vJ/flowersss.png",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Settings - Account page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Settings - Billing page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Search page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "label": "Low",
+              "title": "Moodboard",
+              "description": "",
+              "imageURL":"https://i.ibb.co/zG5THmd/plant.png",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "Upgrade plan",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Cancel plan",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Update payment method",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "label":"Completed",
+              "title": "Mobile App Design",
+              "description": "Ensure the layout continues to make sense and we have strong buy-in from potential users.",
+              "imageURL" :"https://i.ibb.co/FwmKHSF/mobile-Design.png",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Complete 5 wireframe prototype tests",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "label":"Completed",
+              "title": "Create wireframe prototype",
+              "description": "Create a greyscale clickable wireframe prototype to test our assumptions so far.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Interface Making",
+                  "isCompleted": true
+                }
+              ]
+            }
+            
+             
+          ]
+        }
+      ]
+    }
+  ]
+}
